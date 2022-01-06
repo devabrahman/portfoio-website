@@ -17,7 +17,13 @@ body {
   margin: 0 auto;
 }
 .space {
-  padding: 50px 0;
+  padding-top: 80px;
+}
+.section_title {
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: "Yeseva One", cursive;
+  font-size: 40px;
 }
 .btn {
   background-color: #db5959;
@@ -55,3 +61,23 @@ header {
   margin-top: -30px;
 }
 /* Hero Section End */
+.section_body {
+  display: flex;
+  gap: 4%;
+}
+.sigle_feaserd {
+  background: #f3f3f3;
+  border-radius: 15px;
+  padding: 40px 25px;
+}
+.section_body .sigle_feaserd img {
+  max-width: 150px;
+}
+.section_body .sigle_feaserd h3 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 15px 0;
+}
+.section_body .sigle_feaserd p {
+  line-height: 1.4;
+}
