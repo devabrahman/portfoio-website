@@ -31,7 +31,7 @@ body {
 .btn {
   background-color: #db5959;
   color: #fff;
-  padding: 10px 15px;
+  padding: 15px 25px;
   border-radius: 10px;
   display: inline-block;
 }
@@ -40,8 +40,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.hero-text {
+  width: 50%;
+}
 .hero-text .hero-tile {
-  font-size: 40px;
+  font-size: 45px;
   font-family: "Yeseva One", cursive;
   border-left: 5px solid #db5959;
   padding-left: 20px;
@@ -52,16 +55,19 @@ header {
   display: block;
 }
 .hero-text p {
-  padding: 20px 0;
-  line-height: 1.4;
+  padding: 40px 0;
+  line-height: 1.8;
+}
+p.hero_scroll {
+  padding-top: 30px;
 }
 .hero-img {
-  max-width: 50%;
+  max-width: 45%;
 }
 .hero-img img {
-  width: 80%;
+  width: 90%;
   float: right;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 /* Hero Section End */
 .feasurd_title {
@@ -98,10 +104,11 @@ header {
 /* developer thinking Section End */
 .solution_text p {
   line-height: 1.5;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .solution_img {
   min-width: 50%;
+  align-self: flex-end;
 }
 .solution_img img {
   width: 90%;
@@ -119,7 +126,7 @@ header {
   width: 50%;
 }
 .progress_feasured_text p {
-  line-height: 2;
+  line-height: 1.6;
 }
 .progress_feasured_text ul {
   list-style: none;
