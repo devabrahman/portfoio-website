@@ -97,6 +97,7 @@ p.hero_scroll {
 
 .develper_thinking_img {
   max-width: 50%;
+  align-self: center;
 }
 .develper_thinking_img img {
   width: 90%;
