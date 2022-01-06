@@ -108,6 +108,39 @@ header {
   float: right;
 }
 /* Creative soluation Section end */
+
+.progress_feasured_img {
+  max-width: 50%;
+}
+.progress_feasured_img img {
+  max-width: 100%;
+}
+.progress_feasured_text {
+  width: 50%;
+}
+.progress_feasured_text p {
+  line-height: 2;
+}
+.progress_feasured_text ul {
+  list-style: none;
+  padding-top: 30px;
+}
+.progress_feasured_text ul li {
+  padding: 10px 0;
+}
+.progress_feasured_text ul li .progressbar_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 10px;
+}
+
+.progressbar progress {
+  width: 100%;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+/*Complete preogress section  */
 footer {
   margin-top: 60px;
   background: #000;
